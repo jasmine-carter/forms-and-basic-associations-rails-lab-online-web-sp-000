@@ -10,8 +10,8 @@
   <%= f.label :genre %>
   <%= f.collection_select :genre_id, Genre.all, :id, :name %>
   <%= f.label :song_notes_1 %>
-  <%= f.text_field :song_notes_1 %>
-  
+  <%= f.text_field :song_notes %>
+
 
   <%= f.submit %>
 <% end %>
